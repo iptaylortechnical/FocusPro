@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "FocusPro",
+  "description": "Singles out a single element",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+  "background":
+    {
+        "scripts": ["jquery.min.js"]
+    },
+
+   "content_scripts": [ {
+    "js": [ "jquery.min.js", "background.js" ],
+    "matches": [ "http://*/*", "https://*/*"]
+  }]
+}
