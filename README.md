@@ -1,0 +1,2 @@
+# FocusPro
+Chrome extension that helps manage screen space. Press ctrl-f to enable. hover over an element and press space to select it. use the arrow keys to select your desired container. switches the focus to the parent, down arrow key to the last known child (in case you go too far). once you have the correct element selected (it should be outlined in red), press d to delete the element or s single it out (make it the only element on the page). Handy for getting rid of pesky ads or just focusing on one area of your screen.
